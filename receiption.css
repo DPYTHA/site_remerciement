@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.message_recept{
+    width: 700px;
+    height: 300px;
+    margin: 250px 50px 300px 400px;
+    display: flex;
+    align-items: center;
+   border: 1px solid;
+   border-radius: 8px;
+   border-right-color: orange;
+}
+.message{
+    font-size: 20px;
+    text-align: justify;
+    align-items: center;
+    margin-left: 10px;
+}
+.gif_student img{
+    width: 100px;
+}
+span{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+ /* Styles Responsive */
+ @media (max-width: 768px) {
+
+
+    .message_recept{
+        width: 400px;
+        height: 200px;
+        margin: 250px 10px 100px 15px;
+        display: flex;
+        align-items: center;
+       border: 1px solid;
+       border-radius: 8px;
+       border-right-color: orange;
+    }
+
+    .message{
+        font-size: 14px;
+        text-align: justify;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+
+ }
+
+ @media (max-width: 480px) {
+
+    .message_recept{
+        width: 420px;
+        height: 200px;
+        margin: 250px 10px 100px 3px;
+        display: flex;
+        align-items: center;
+       border: 1px solid;
+       border-radius: 8px;
+       border-right-color: orange;
+    }
+    .gif_student img{
+        width: 100px;
+    }
+ }
